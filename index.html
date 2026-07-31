@@ -1,422 +1,242 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aman's Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amanpreet Singh Saimbhi &ndash; Research Software Engineer</title>
+<meta name="description" content="Research Software Engineer in New York, working across medical imaging, machine learning, software security, AI safety, and the systems underneath them.">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0b0a0e" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f2f9" media="(prefers-color-scheme: light)">
+<link rel="canonical" href="https://aman-saimbhi.github.io/">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/icons8-title-64.png" type="image/x-icon">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Amanpreet Singh Saimbhi">
+<meta property="og:description" content="New domain, tuned weights. Research Software Engineer in New York, working across medical imaging, machine learning, software security and AI safety.">
+<meta property="og:url" content="https://aman-saimbhi.github.io/">
+<meta property="og:image" content="https://aman-saimbhi.github.io/assets/img/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A six-sided solid, each side labelled with one domain of work.">
+<meta name="twitter:card" content="summary_large_image">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="module" src="/assets/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Amanpreet Singh Saimbhi",
+  "jobTitle": "Research Software Engineer",
+  "url": "https://aman-saimbhi.github.io/",
+  "email": "mailto:aman.saimbhi@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US" },
+  "worksFor": { "@type": "Organization", "name": "NYU Grossman School of Medicine" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "New York University" },
+    { "@type": "CollegeOrUniversity", "name": "Guru Gobind Singh Indraprastha University" }
+  ],
+  "knowsAbout": ["Medical imaging", "Machine learning", "Software engineering", "Software security", "AI safety", "Systems infrastructure", "Magnetic resonance imaging", "DICOM"],
+  "sameAs": [
+    "https://www.linkedin.com/in/amanpreet-singh-saimbhi/",
+    "https://github.com/Aman-saimbhi",
+    "https://scholar.google.com/citations?user=JYChwHAAAAAJ&hl=en"
+  ]
+}
+</script>
 </head>
-
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/Subject.png" alt="Amanpreet Singh Saimbhi" style="height: 90px;
-    width: 80px;">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Amanpreet Singh Saimbhi" style="font-size: 18px;">Amanpreet Singh Saimbhi</h1>
-
-          <p class="title">Perennial Learner</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:aman.saimbhi@gmail.com" class="contact-link">aman.saimbhi@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+19999999999" class="contact-link">+1 (999) 999-9999</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">August 29, 1999</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Brooklyn, NY, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <a class="navbar-link" href="https://drive.google.com/file/d/1eiX2iNlv4RZfLNW59ubmaVc_LND40y23/view?usp=sharing" target="_blank">Resume</a>
-          </li>
-
-          <li class="navbar-item">
-            <a class="navbar-link" href="https://www.linkedin.com/in/amanpreet-singh-saimbhi/" target="_blank">LinkedIn</a>
-          </li>
-
-          <li class="navbar-item">
-            <a class="navbar-link" href="https://github.com/Aman-saimbhi" target="_blank">Github</a>
-          </li>
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am a diligent and meticulous individual having an MS degree in Computer Science Engineering from NYU.
-            I am inclined towards challenging projects having constrained timelines.
-            At the core, I am a self-learner and a team player who’s open to exploring more in the discipline of software engineering.
-            Also, I am extremely passionate about emerging trends in Machine Learning.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Interests</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Software Engineering</h4>
-
-                <p class="service-item-text">
-                  Design, development, testing, and maintenance of software.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  Industry-standard development of web applications at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Machine Learning</h4>
-
-                <p class="service-item-text">
-                  Training models on data and making predictions to solve real-world challenges innovatively.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Science</h4>
-
-                <p class="service-item-text">
-                  Exploring intriguing patterns in big data and architecting data pipelines.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-      </article>
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+ <div class="topbar__in">
+  <span class="topbar__mark" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor"
+         stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7.5 12 12l-5 4.5"/><path d="M13.5 16.5H18"/></svg>
+  </span>
+  <!-- the name is set once, in the hero; this only appears once you've scrolled past it -->
+  <p class="topbar__name" data-reveal>Amanpreet Singh Saimbhi</p>
+  <nav class="topbar__links" aria-label="Elsewhere">
+    <a href="https://www.linkedin.com/in/amanpreet-singh-saimbhi/" target="_blank" rel="noopener">LinkedIn<span class="vh"> (opens in a new tab)</span></a>
+    <a href="https://github.com/Aman-saimbhi" target="_blank" rel="noopener">GitHub<span class="vh"> (opens in a new tab)</span></a>
+    <a href="https://scholar.google.com/citations?user=JYChwHAAAAAJ&hl=en" target="_blank" rel="noopener">Scholar<span class="vh"> (opens in a new tab)</span></a>
+    <a href="https://drive.google.com/file/d/1eiX2iNlv4RZfLNW59ubmaVc_LND40y23/view?usp=sharing" target="_blank" rel="noopener">Résumé<span class="vh"> (opens in a new tab)</span></a>
+  </nav>
+ </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-labelledby="h-name">
+    <div class="hero__type">
+      <p class="hero__meta"><span>Research Software Engineer</span><span class="dot"></span><span>New York</span></p>
+      <h1 class="hero__name" id="h-name">Amanpreet<br>Singh Saimbhi</h1>
+      <p class="hero__tag">New domain. <em>Tuned weights.</em></p>
+      <p class="hero__lede">I build the systems that take a concept from a notebook into the hands of someone who has to rely on it. Most of that work sits in a clinical setting, where the machine learning and the software around it both have to hold up against the way medicine is really practised, and where the model itself is usually the easy part.</p>
     </div>
 
-  </main>
+    <div class="hero__solid" data-cube-wrap>
+      <canvas id="cube" tabindex="0" role="img"
+              aria-label="A six-sided solid, one side per domain of work. Use arrow keys to turn it, Enter to open the front side."></canvas>
+      <p class="hero__hint"><span>Drag to turn</span><span class="dot" aria-hidden="true"></span><span>click a side to open it</span></p>
+    </div>
+  </section>
 
+  <!-- ===== 01 SIDES ===== -->
+  <section class="band" aria-labelledby="h-sides">
+    <h2 class="shead" id="h-sides"><span class="shead__idx" aria-hidden="true">01</span><span class="shead__txt">Domains</span></h2>
 
+    <ol class="sides" id="sides">
 
+      <li><details name="side" id="imaging">
+        <summary><span class="side__n" aria-hidden="true">01</span><span class="side__label">Medical imaging</span><span class="side__cue" aria-hidden="true"></span></summary>
+        <div class="side__body">
+          <p>Medical images do not arrive as images. They arrive as DICOM: pixel data wrapped in hundreds of tags describing the patient, the study, the series, the scanner and every setting it was running. Most of the difficulty lives in those tags, in routing studies to the right place, reconciling fields that each vendor fills in slightly differently, and keeping a series intact as it moves. My time mostly goes into striking a balance between what the data will support and what the clinic can absorb.</p>
+        </div>
+      </details></li>
 
+      <li><details name="side" id="ml">
+        <summary><span class="side__n" aria-hidden="true">02</span><span class="side__label">Machine learning</span><span class="side__cue" aria-hidden="true"></span></summary>
+        <div class="side__body">
+          <p>I have pointed roughly the same set of methods at scans, at video, at compressed images, and at signals coming off a wrist, often several of them at once, where the useful part is what one modality knows that the others do not. The domain changes a lot and the work changes very little: find the structure, get it working outside a notebook, and be explicit about what it cannot tell you. That last one is where most of the judgement sits.</p>
+        </div>
+      </details></li>
 
+      <li><details name="side" id="engineering">
+        <summary><span class="side__n" aria-hidden="true">03</span><span class="side__label">Software engineering</span><span class="side__cue" aria-hidden="true"></span></summary>
+        <div class="side__body">
+          <p>I write code assuming I will not be the one running it in three years. In practice that means tests that fail for a reason, a build somebody else can trigger without asking me, and boring choices anywhere a clever one would age badly.</p>
+        </div>
+      </details></li>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+      <li><details name="side" id="security">
+        <summary><span class="side__n" aria-hidden="true">04</span><span class="side__label">Software security</span><span class="side__cue" aria-hidden="true"></span></summary>
+        <div class="side__body">
+          <p>Source code is a graph well before it is text. Looking at it that way turns finding a vulnerability into pattern recognition rather than a search for bug shapes you already know, and pattern recognition generalises where a fixed set of rules does not.</p>
+        </div>
+      </details></li>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <li><details name="side" id="safety">
+        <summary><span class="side__n" aria-hidden="true">05</span><span class="side__label">AI safety</span><span class="side__cue" aria-hidden="true"></span></summary>
+        <div class="side__body">
+          <p>I care more about what a model can honestly claim than about what it scores. Some of the more useful work I have been part of showed that a promising idea did not help anyone. A negative result closes a door, and closing doors is how a field stops spending years on the wrong one.</p>
+        </div>
+      </details></li>
+
+      <li><details name="side" id="systems">
+        <summary><span class="side__n" aria-hidden="true">06</span><span class="side__label">Systems &amp; infrastructure</span><span class="side__cue" aria-hidden="true"></span></summary>
+        <div class="side__body">
+          <p>Nobody notices this layer until it breaks, which is most of why I like it. Queues that put the urgent thing first, containers that behave the same on a machine I will never see, pipelines that run without anyone watching them. Good infrastructure gets measured in problems that never happened.</p>
+        </div>
+      </details></li>
+
+    </ol>
+
+  </section>
+
+  <!-- ===== 02 METHOD ===== -->
+  <section class="band" aria-labelledby="h-method" id="method">
+    <h2 class="shead" id="h-method"><span class="shead__idx" aria-hidden="true">02</span><span class="shead__txt">Method</span></h2>
+
+    <p class="method__intro">Different domains, and the central questions stay the same. This is the part that transfers.</p>
+
+    <ol class="method">
+      <li>
+        <span class="method__n" aria-hidden="true">01</span>
+        <div class="method__body">
+          <h3>Find the structure.</h3>
+          <p>Whatever the data is, something in it is already organised. Scans, source code and sensor traces all reward the same kind of looking, and most of the work is deciding what to look at.</p>
+        </div>
+      </li>
+      <li>
+        <span class="method__n" aria-hidden="true">02</span>
+        <div class="method__body">
+          <h3>Get it running on real data.</h3>
+          <p>A result on a clean benchmark is a hypothesis. A result on live traffic, at the speed the people using it need, is a finding. Almost everything interesting shows up in the gap between the two.</p>
+        </div>
+      </li>
+      <li>
+        <span class="method__n" aria-hidden="true">03</span>
+        <div class="method__body">
+          <h3>Make it survive other people.</h3>
+          <p>Tests that fail for a reason, a build anyone on the team can trigger, and boring choices anywhere a clever one would age badly. If it only runs when I am in the room, it does not run.</p>
+        </div>
+      </li>
+      <li>
+        <span class="method__n" aria-hidden="true">04</span>
+        <div class="method__body">
+          <h3>Be clear about what it cannot do.</h3>
+          <p>Every model has an edge past which it is guessing. Finding that edge and saying where it is takes the most care and gets skipped the most often, and in medicine it is the part that matters most.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===== 03 TOOLKIT ===== -->
+  <section class="band" aria-labelledby="h-kit">
+    <h2 class="shead" id="h-kit"><span class="shead__idx" aria-hidden="true">03</span><span class="shead__txt">Toolkit</span></h2>
+    <dl class="kit">
+      <div><dt>Languages</dt><dd>Python · C/C++ · JavaScript · Go · SQL · Java · PHP · C#</dd></div>
+      <div><dt>Machine learning</dt><dd>PyTorch · MONAI · TensorFlow · Keras · scikit-learn · OpenCV · NumPy · pandas</dd></div>
+      <div><dt>Web</dt><dd>Flask · Django · React · Node · Express · Plotly.js · .NET</dd></div>
+      <div><dt>Infrastructure</dt><dd>Docker · AWS · Jenkins · Git · pytest · DICOM · Metabase</dd></div>
+      <div><dt>Data</dt><dd>PostgreSQL · MySQL · MSSQL · Oracle · MongoDB · SQLite</dd></div>
+    </dl>
+  </section>
+
+  <!-- ===== 04 TRAJECTORY ===== -->
+  <section class="band" aria-labelledby="h-traj">
+    <h2 class="shead" id="h-traj"><span class="shead__idx" aria-hidden="true">04</span><span class="shead__txt">Trajectory</span></h2>
+    <ol class="traj">
+      <li><span class="traj__yr">2023 &ndash; Present</span><span class="traj__what"><strong>Research Software Engineer</strong>, NYU Grossman School of Medicine <i>New York</i></span></li>
+      <li><span class="traj__yr">2022</span><span class="traj__what"><strong>Software Engineer Intern</strong>, Next Jump <i>New York</i></span></li>
+      <li><span class="traj__yr">2021 &ndash; 2023</span><span class="traj__what"><strong>Graduate Researcher / Research Assistant</strong>, New York University <i>New York</i></span></li>
+      <li><span class="traj__yr">2021 &ndash; 2023</span><span class="traj__what"><strong>MS, Computer Science Engineering</strong>, New York University <i>New York</i></span></li>
+      <li><span class="traj__yr">2017 &ndash; 2021</span><span class="traj__what"><strong>BTech, Computer Science Engineering</strong>, Guru Gobind Singh Indraprastha University <i>New Delhi</i></span></li>
+    </ol>
+  </section>
+
+  <!-- ===== 05 OFF DUTY ===== -->
+  <section class="band" aria-labelledby="h-off">
+    <h2 class="shead" id="h-off"><span class="shead__idx" aria-hidden="true">05</span><span class="shead__txt">Off duty</span></h2>
+    <div class="off">
+      <div class="off__text">
+        <p>New Delhi to New York was less a change of address than a change of defaults. Almost everything I was already good at had to be relearned in a different context, and the parts nobody teaches you, how to disagree without stalling a project, when to ask instead of guessing, when a thing is actually finished, ended up mattering more than anything I already knew how to build.</p>
+        <p>Away from all of that: the gym most evenings, which is the one system I work on with a completely legible feedback loop. Travel the rest of the time, mostly as an excuse to be a beginner at something again.</p>
+      </div>
+      <figure class="off__portrait">
+        <img src="/assets/img/avatar-voxel.png" width="629" height="629" decoding="async"
+             alt="A portrait of Amanpreet Singh Saimbhi built out of blocks.">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== 06 CONTACT ===== -->
+  <section class="band band--end" aria-labelledby="h-contact">
+    <h2 class="shead" id="h-contact"><span class="shead__idx" aria-hidden="true">06</span><span class="shead__txt">Contact</span></h2>
+    <p class="contact">
+      <a class="contact__mail" href="mailto:aman.saimbhi@gmail.com">aman.saimbhi@gmail.com</a>
+    </p>
+    <p class="outlinks">
+      <a href="https://www.linkedin.com/in/amanpreet-singh-saimbhi/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span><span class="vh"> (opens in a new tab)</span></a>
+      <a href="https://github.com/Aman-saimbhi" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span><span class="vh"> (opens in a new tab)</span></a>
+      <a href="https://scholar.google.com/citations?user=JYChwHAAAAAJ&hl=en" target="_blank" rel="noopener">Scholar <span aria-hidden="true">↗</span><span class="vh"> (opens in a new tab)</span></a>
+      <a href="https://drive.google.com/file/d/1eiX2iNlv4RZfLNW59ubmaVc_LND40y23/view?usp=sharing" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span><span class="vh"> (opens in a new tab)</span></a>
+    </p>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>© <span id="yr">2026</span> Amanpreet Singh Saimbhi</p>
+</footer>
 
 </body>
-
 </html>
